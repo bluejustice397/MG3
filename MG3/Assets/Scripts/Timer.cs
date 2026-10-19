@@ -11,6 +11,13 @@ public class Timer : MonoBehaviour
     // Make sure to TUNE this value in the INSPECTOR after you create it!
 
     private float gameTime = 30.0f;
+    private float kirb;
+    private int numCakes;
+    private string ateCakes;
+    private bool IsHeAGlutton;
+
+
+
 
     // STEP 1 -----------------------------------------------------------------
 
@@ -56,9 +63,9 @@ public class Timer : MonoBehaviour
         
             
         gameTime-= Time.deltaTime;
-        Debug.Log(gameTime);
+        
 
-         
+
 
 
     }
